@@ -68,6 +68,12 @@
 |
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
+
+	
+	'username' => 'tkabawar_admin',
+	'password' => 'Admin^&*()',
+	'database' => 'tkabawar_web',
+	'dbdriver' => 'mysqli',
 */
 $active_group = 'default';
 $query_builder = TRUE;
@@ -75,9 +81,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'tkaba',
+	'username' => 'tkabawar_admin',
+	'password' => 'Admin^&*()',
+	'database' => 'tkabawar_web',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
